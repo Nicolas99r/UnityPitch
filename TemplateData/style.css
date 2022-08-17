@@ -11,7 +11,7 @@ body { padding: 0; margin: 0 }
 #unity-footer { position: relative }
 .unity-mobile #unity-footer { display: none }
 #unity-webgl-logo { float:left; width: 204px; height: 38px; background: url('webgl-logo.png') no-repeat center }
-#unity-build-title { float: right; margin-right: 10px; line-height: 38px; font-family: arial; font-size: 18px }
+#unity-build-title { float: right; margin-right: 10px; line-height: 38px; font-family: arial; font-size: 18px; color: rgb(189, 189, 189); }
 #unity-fullscreen-button { float: right; width: 38px; height: 38px; background: url('fullscreen-button.png') no-repeat center }
 #unity-warning { position: absolute; left: 50%; top: 5%; transform: translate(-50%); background: white; padding: 10px; display: none }
 
@@ -25,4 +25,28 @@ body {
 .unity-desktop {
     -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.49); 
     box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.49);
+}
+
+.logo-container {
+    background-color: rgb(209, 209, 209);
+    height: 90px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    border-radius: 12px;
+    -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.44); 
+    box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.44);
+}
+
+.logo_nico {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_nico img {
+    width: 90%;
 }
